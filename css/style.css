@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width: 480px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto ;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-left: 15px;
+        float: left;
+        height: auto;
+        width: 25vw;
+    }
+    .lista1{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .lista1 li{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 5px;
+        padding: 1px;
+        font-size: 10px;
+        float: right;
+    }
+    .titulo{
+        margin-top: 180px;
+        margin-left: 15px;
+        color: white;
+        line-height: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+    .cabeza{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-image: url(https://drive.google.com/uc?/export=view&id=1k-HvqGd82p0QG1jQ9K70HP_o_2L-DXi2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: grey;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /*Más Sobre Nosotros*/
+    .tiMassobre{
+        margin-top: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .massobrenosotros{
+        margin-top: 5vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .detalles{
+        display: block;
+        align-items: center;
+        height: auto;
+        width: 25%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imagIcon{
+        height: 80px;
+        width: 80px;
+    }
+    .detalles h3{
+        padding-top: 20px;
+        text-transform: uppercase;
+        height: 40px;
+        font-size: 14px;
+    }
+    .detalles p{
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        font-size: 14px;
+    }
+    /*CASAS Y DEPAS EN VENTA*/
+    .tiCasasydepas{
+        margin-top: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .casas{
+        margin-top: 5vw;
+        display: block;
+        width: 30%;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid #E6E3E4;
+    }
+    .casas p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        height: 120px;
+        font-size: 14px;
+    }
+    .casas div p{
+        height: auto;
+    }
+    .casas h3{
+        padding-top: 20px;
+        height: 60px;
+        font-weight: lighter;
+        text-align: left;
+        font-size: 18px;
+    }
+    .casas span{
+        padding-top: 5px;
+        display: block;
+        color: green;
+        text-align: left;
+    }
+    .casas button{
+        height: 40px;
+        width: 90%;
+        margin-bottom: 20px;
+        justify-items: center;
+        background-color: #DF8815;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: none;
+    }
+    .casas div{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .casas div img{
+        width: 15%;
+    }
+    .imagCasas{
+        height: auto;
+        width: 100%;
+    }
+    .casasydepas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .verTodas{
+        float: right;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 4.1vw;
+        margin-bottom: 20px;
+        height: 40px;
+        width: 15%;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        background-color: #71B11E;
+        border: black;
+    }
+    .piecito1{
+        width: 100%;
+        height: auto;
+        display: inline;
+        background: url(https://drive.google.com/uc?/export=view&id=12gFuJZAcWk8tK4H9cX5IFtBa5bRxvFB2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: grey;
+    }
+    .piecito1 h2{
+        margin-top: 60px;
+        margin-left: 15vw;
+        color: white;
+        font-weight: bolder;
+    }
+    .piecito1 p{
+        margin-left: 15vw;
+        margin-top: 40px;
+        color: white;
+    }
+    .piecito1 button{
+        margin-left: 15vw;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        color: white;
+        width: auto;
+        height: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-color: #E58419;
+        border: none;
+    }
+    .piecito2{
+        background-color: #333333;
+        height: 60px;
+        overflow: hidden;
+    }
+    .lista2{
+        margin-top: 35px;
+        color: white;
+    }
+    .lista2 li{
+        list-style: none;
+        margin-left: 3vw;
+        margin-bottom: 1px;
+        float: left;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 12px;
+    }
+    .piecito2 span{
+        float: right;
+        color: #D7CFCC;
+        margin-right: 4vw;
+        margin-bottom: 1px;
+        font-size: 10px;
+    }
+    
+}
+@media screen and (min-width: 481px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+    .logo{
+        margin-top: 20px;
+        margin-left: 20px;
+        float: left;
+        height: auto;
+        width: 25vw;
+    }
+    .lista1{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .lista1 li{
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding: 2px;
+        float: right;
+    }
+    .titulo{
+        margin-top: 180px;
+        margin-left: 20px;
+        color: white;
+        line-height: 5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .cabeza{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        background-image: url(https://drive.google.com/uc?/export=view&id=1k-HvqGd82p0QG1jQ9K70HP_o_2L-DXi2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: grey;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    /*Más Sobre Nosotros*/
+    .tiMassobre{
+        margin-top: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .massobrenosotros{
+        margin-top: 5vw;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .detalles{
+        display: block;
+        align-items: center;
+        height: auto;
+        width: 25%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .imagIcon{
+        height: 80px;
+        width: 80px;
+    }
+    .detalles h3{
+        padding-top: 20px;
+        text-transform: uppercase;
+        height: 40px;
+    }
+    .detalles p{
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+    }
+    /*CASAS Y DEPAS EN VENTA*/
+    .tiCasasydepas{
+        margin-top: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .casas{
+        margin-top: 5vw;
+        display: block;
+        width: 30%;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid #E6E3E4;
+    }
+    .casas p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        height: 120px;
+    }
+    .casas div p{
+        height: auto;
+    }
+    .casas h3{
+        padding-top: 20px;
+        height: 60px;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .casas span{
+        display: block;
+        color: green;
+        text-align: left;
+    }
+    .casas button{
+        height: 40px;
+        width: 90%;
+        margin-bottom: 20px;
+        justify-items: center;
+        background-color: #DF8815;
+        color: white;
+        font-weight: bolder;
+        text-transform: uppercase;
+        border: none;
+    }
+    .casas div{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .casas div img{
+        width: 15%;
+    }
+    .imagCasas{
+        height: auto;
+        width: 100%;
+    }
+    .casasydepas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .verTodas{
+        float: right;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 4.1vw;
+        margin-bottom: 20px;
+        height: 40px;
+        width: 15%;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        background-color: #71B11E;
+        border: black;
+    }
+    .piecito1{
+        width: 100%;
+        height: auto;
+        display: inline;
+        background: url(https://drive.google.com/uc?/export=view&id=12gFuJZAcWk8tK4H9cX5IFtBa5bRxvFB2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: grey;
+    }
+    .piecito1 h2{
+        margin-top: 60px;
+        margin-left: 15vw;
+        color: white;
+        font-weight: bolder;
+    }
+    .piecito1 p{
+        margin-left: 15vw;
+        margin-top: 40px;
+        color: white;
+    }
+    .piecito1 button{
+        margin-left: 15vw;
+        margin-top: 40px;
+        margin-bottom: 35px;
+        color: white;
+        width: auto;
+        height: 50px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        background-color: #E58419;
+        border: none;
+    }
+    .piecito2{
+        background-color: #333333;
+        height: 60px;
+        overflow: hidden;
+    }
+    .lista2{
+        margin-top: 35px;
+        color: white;
+    }
+    .lista2 li{
+        list-style: none;
+        margin-left: 3vw;
+        margin-bottom: 1px;
+        float: left;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        font-size: 12px;
+    }
+    .piecito2 span{
+        float: right;
+        color: #D7CFCC;
+        margin-right: 4vw;
+        margin-bottom: 1px;
+        font-size: 10px;
+    }
+    .aviso-cookies{
+        display: none; /*No lo muestra hasta que le doy el click en los cookies, ahí pasa a acitvo y se activa el diplay block*/
+        background-color: #fff; 
+        padding: 20px;
+        width: calc(100% - 40px); /*Amigo, con calc podes hacer esa magia*/
+        max-width: 300px; /*ancho máximo, así no queda gigante perro*/
+        line-height: 150%;
+        border-radius: 10px;
+        position: fixed; /*Este fijo en pantalla*/
+        bottom: 20px;/*Lo posiciono en la parte de abajo, 20px de abajo hacia arriba*/
+        left: 20px;/*Lo mismo que bottom, pero de izquierda a derecha*/
+        z-index: 100;/*Que este delante de todos*/
+        padding-top: 60px;
+        box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+        text-align: center;
+    }
+    .aviso-cookies.activo{
+        display: block;
+    }
+    .aviso-cookies .galleta{
+        max-width: 100px;
+        position: absolute;
+        top:-50px;
+        left: calc(50% - 50px); /*Posicionamos con el 50% en el medio, pero justo donde comienza la galleta, le restamos el 50px que es la mitad del tamaño de la galleta para correrla y que quede la parte del medioo en el medio*/
+    }
+    .aviso-cookies .titulo-cookies,
+    .aviso-cookies .parrafo{
+        margin-bottom: 15px;
+        font-family: 'Roboto',sans-serif;
+        font-size: 17px;
+    }
+    .aviso-cookies .boton{
+        width: 100%;
+        background-color: #595959;
+        border: none;
+        color: #fff;
+        font-family: 'Roboto', sans-serif; /*Si no encuentra la roboto, trabaja con la sans-serif*/
+        text-align: center;
+        padding: 15px 20px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: .3s ease all; 
+        border-radius: 5px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .aviso-cookies .boton:hover{
+        background-color: #000;
+    }
+    .aviso-cookies .enlace{
+        color: #4DBFFF;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .aviso-cookies .enlace:hover{
+        text-decoration: underline;
+    }
+    .fondo-aviso-cookies{
+        display: none;
+        background: rgba(0,0,0,.20);
+        position: fixed;
+        z-index: 99;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+
+    .fondo-aviso-cookies.activo{ /*Se queda esperando a que se desactive y así se muestra lo de la pagina*/
+        display: block;
+    }
+}
